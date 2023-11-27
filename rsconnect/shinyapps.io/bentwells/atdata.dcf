@@ -1,0 +1,11 @@
+name: atdata
+title:
+username:
+account: bentwells
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 280602
+bundleId: 6824992
+url: https://bentwells.shinyapps.io/atdata/
+when: 1675887360.67507
+lastSyncTime: 1675887360.67509
