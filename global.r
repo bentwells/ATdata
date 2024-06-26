@@ -1,4 +1,5 @@
 ## Set options, load packages
+setwd("C:/Users/bwells01/Documents/Miscellaneous/AT/")
 options(stringsAsFactors=FALSE)
 require(shiny,quietly=TRUE,warn.conflicts=FALSE)
 require(DT,quietly=TRUE,warn.conflicts=FALSE)
@@ -12,8 +13,8 @@ if (Sys.info()['sysname'] != "Windows") {
 }
 
 ## Load elevation profile and trail waypoint files
-load("data/at_profile_2023.Rdata",envir=sys.frame(0))
-load("data/profile_labels_2023.Rdata",envir=sys.frame(0))
+load("data/at_profile_2024.Rdata",envir=sys.frame(0))
+load("data/profile_labels_2024.Rdata",envir=sys.frame(0))
 
 ## Set variables used in multiple places in the app
 at.length <- max(wb.points$dist.mi)
