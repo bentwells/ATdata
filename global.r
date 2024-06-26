@@ -1,5 +1,4 @@
 ## Set options, load packages
-setwd("C:/Users/bwells01/Documents/Miscellaneous/AT/")
 options(stringsAsFactors=FALSE)
 require(shiny,quietly=TRUE,warn.conflicts=FALSE)
 require(DT,quietly=TRUE,warn.conflicts=FALSE)

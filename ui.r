@@ -52,7 +52,7 @@ shinyUI(fluidPage(title="Appalachian Trail Elevation Profiles",
          href="https://whiteblaze.net/")),
       p("Like this page? Please consider donating to keep it running.",a("Donate",
          href="https://www.paypal.me/bentwells/")),
-      p("The mileage and elevation data are based on the official 2023 mileages and GPS data
+      p("The mileage and elevation data are based on the official 2024 mileages and GPS data
          from the",br(),a("Appalachian Trail Conservancy.",href="https://appalachiantrail.org"))),
     conditionalPanel(condition="input['go.button'] > 0",
       plotOutput("display.plot",height="600px",width="960px")),
